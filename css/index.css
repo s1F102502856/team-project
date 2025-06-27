@@ -8,17 +8,23 @@
 }
 .Sidebar{
   display: block;
-  margin: 0px 0px 5px 0px;
+  margin: -60px 0px 5px 0px;
   padding: 0px 0px 90px 0px;
-  background-color: white;
+  background-color: rgb(131, 131, 131);
 }
 .Sidebar h1{
   display: block;
   padding: 0px 60px 0px 30px;
-  background-color: #85b2ff;  
+  background-color: #414141;  
 }
 .Sidebar h2{
   display: block;
-  padding: 0px 0px 0px 10px;
-  background-color: #85b2ff;  
+  padding: 10px 0px 0px 10px;
+  background-color: rgb(131, 131, 131);  
+}
+.Sidebar h2:hover{
+	background-color: #414141;
+}
+.my-link {
+  color: #ffffff; /* デフォルトのリンク色 */
 }
