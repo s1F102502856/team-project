@@ -1,3 +1,24 @@
-.red{
-    color:red;
+.white{
+    color:white;
+}
+.Menu {
+  position:fixed;
+  line-height:120px;
+  right:0px;
+}
+.Sidebar{
+  display: block;
+  margin: 0px 0px 5px 0px;
+  padding: 0px 0px 90px 0px;
+  background-color: white;
+}
+.Sidebar h1{
+  display: block;
+  padding: 0px 60px 0px 30px;
+  background-color: #85b2ff;  
+}
+.Sidebar h2{
+  display: block;
+  padding: 0px 0px 0px 10px;
+  background-color: #85b2ff;  
 }
