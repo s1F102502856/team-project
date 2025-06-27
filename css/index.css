@@ -25,3 +25,6 @@
 .Sidebar h2:hover{
 	background-color: #414141;
 }
+.my-link {
+  color: #ffffff; /* デフォルトのリンク色 */
+}
