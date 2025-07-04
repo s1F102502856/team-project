@@ -26,6 +26,10 @@
 .Sidebar h2:hover{
 	background-color: #7b0909;
 }
+body {
+  margin-right: 200px; /* サイドバーの幅に合わせて調整 */
+  padding: 20px;
+}
 }
 @media screen and (max-width: 480px) {
   /* ── ヘッダー固定＋２列折り返し ── */
@@ -68,8 +72,4 @@
 }
 .red_link {
   color: #d44040; /* デフォルトのリンク色 */
-}
-body {
-  margin-right: 200px; /* サイドバーの幅に合わせて調整 */
-  padding: 20px;
 }
