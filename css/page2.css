@@ -1,3 +1,4 @@
+@media screen and (min-width: 481px){ 
 .white{
     color:rgb(127, 7, 7);
 }
@@ -24,6 +25,46 @@
 }
 .Sidebar h2:hover{
 	background-color: #7b0909;
+}
+}
+@media screen and (max-width: 480px) {
+  /* ── ヘッダー固定＋２列折り返し ── */
+  .Sidebar {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;                /* 折り返しを許可 */
+    background-color: rgb(0, 0, 0);
+    z-index: 1000;
+    box-sizing: border-box;
+  }
+  /* h1, h2 をすべて同じ土俵に乗せる */
+  .Sidebar h1,
+  .Sidebar h2 {
+    flex: 1 1 50%;                  /* 画面幅の50%ずつ＝2列 */
+    margin: 0;
+    padding: 0.5rem 0;              /* 上下余白でタップ領域を確保 */
+    text-align: center;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: rgb(0, 0, 0); 
+    border: 1px solid rgb(77, 77, 77);       /* セルの境界線 */
+  }
+  /* 左列と右列で境界線を二重にしない工夫（任意） */
+  .Sidebar h1:nth-child(2n),
+  .Sidebar h2:nth-child(2n) {
+    border-left: none;
+  }
+  /* フォントサイズ微調整 */
+  .Sidebar h1 { font-size: 1rem; }
+  .Sidebar h2 { font-size: 0.9rem; }
+
+  /* コンテンツがヘッダー下に隠れないように top-margin/padding を確保 */
+  main, .Honbun {
+    margin-top: calc(0.5rem + 1.5em); 
+    /* 例：上下パディング0.5rem + フォント行高さ1.5em */
+  }
 }
 .red_link {
   color: #d44040; /* デフォルトのリンク色 */
