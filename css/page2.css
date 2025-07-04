@@ -1,0 +1,30 @@
+.white{
+    color:rgb(27, 76, 126);
+}
+.Menu {
+  position:fixed;
+  line-height:120px;
+  right:0px;
+}
+.Sidebar{
+  display: block;
+  margin: -60px 0px 5px 0px;
+  padding: 0px 0px 90px 0px;
+  background-color: rgb(78, 109, 123);
+}
+.Sidebar h1{
+  display: block;
+  padding: 0px 60px 0px 30px;
+  background-color: #414141;  
+}
+.Sidebar h2{
+  display: block;
+  padding: 10px 0px 0px 10px;
+  background-color: rgb(78, 109, 123);  
+}
+.Sidebar h2:hover{
+	background-color: #414141;
+}
+.my-link {
+  color: #ffffff; /* デフォルトのリンク色 */
+}
