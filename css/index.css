@@ -28,3 +28,13 @@
 .my-link {
   color: #ffffff; /* デフォルトのリンク色 */
 }
+.font {
+  Font:"游ゴシック";
+  color: #ff5d5d
+}
+.Honbun {
+  background-color: rgb(142, 154, 255);  
+}
+.Color {
+  color: white;
+}
